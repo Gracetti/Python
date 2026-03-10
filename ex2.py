@@ -1,11 +1,7 @@
-# inicio 
-# ler base
-# ler altura
-# calcular area = (base x altura) / 2
-# mostrar area
-# fim
+carros = int(input("quantidade de carros vendidios: "))
+valor_vendas = float(input("valor total das vendas: "))
+salario_fixo = float(input("salario fixo: "))
+comissao = float(input("comissao por carro: "))
 
-base = float(input("digita a base do triangulo:"))
-altura = float(input("digita a altura do triangulo:"))
-area = (base * altura) / 2
-print("area do triangulo:", area)
+salario_final = salario_fixo + (carros * comissao) + (valor_vendas * 0.05)
+print ("salario final do vendedor eh:", salario_final)

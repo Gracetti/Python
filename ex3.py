@@ -1,9 +1,7 @@
-# incio 
-# ler salario
-# calcular novo salario = salario x 1,20
-# mostrar novo salario 
-# fim 
+p = int(input("digita p:",))
+q = int(input("digita q:",))
 
-salario = float(input("digite o salario:"))
-novo_salario = salario * 1.20
-print(f"salario com aumento: {novo_salario:.2f}")
+p, q = q, p
+
+print("p:", p)
+print("q:", q)
