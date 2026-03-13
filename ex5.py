@@ -1,11 +1,6 @@
-# inicio
-# ler cotaçao do dolar
-# ler valor do dolar 
-# calcular reais + dolar x cotaçao 
-# mostarr valor em reais 
-# fim
+numero = int(input("qual o numero inteiro:"))
 
-cotaçao = float(input("digite a cotaçao do dolar:"))
-dolar = float(input("digite o valor em dolar"))
-reais = dolar * cotaçao 
-print(f"valor em reais: {reais:.2f}")
+if numero % 5 == 0:
+    print("o numero e diviseivel por 5")
+else:
+    print("o numero nao e divisivel por 5")

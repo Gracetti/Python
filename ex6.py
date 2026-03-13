@@ -1,9 +1,9 @@
-# inicio 
-# ler consumo de energia em kwh
-# calcular total = x 0,20
-# mostrar valor da conta 
-# fim 
+quantidade = int(input("qual o numero de maças:"))
+if quantidade <= 12:
+    preço = 1.30
+else:
+    preço = 1.00
 
-consumo = float(input( "consumo em kwh:"))
-total = consumo * 0.20
-print(f"valor da conta: {total:.2f}")
+    total = quantidade * preço
+    print("valor total a pagar e: R$", total)
+        

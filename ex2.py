@@ -1,7 +1,6 @@
-carros = int(input("quantidade de carros vendidios: "))
-valor_vendas = float(input("valor total das vendas: "))
-salario_fixo = float(input("salario fixo: "))
-comissao = float(input("comissao por carro: "))
-
-salario_final = salario_fixo + (carros * comissao) + (valor_vendas * 0.05)
-print ("salario final do vendedor eh:", salario_final)
+bloco = int(input("digite o nuemro do bloco:"))
+if bloco <=10:
+    print("o seu sindico e o Sr. Jose")
+else:
+    print("o seu sindico e o Sr. Hamilton")
+    
